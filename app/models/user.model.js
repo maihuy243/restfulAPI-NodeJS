@@ -53,7 +53,6 @@ User.update = (data, result) => {
       if (err) {
         result(null);
       } else {
-        // Update xong tra ve chinh no
         result(data);
       }
     },
